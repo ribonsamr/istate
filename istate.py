@@ -9,10 +9,10 @@ try:
 
         if x == 0:
             print("up")
-            #if platform == 'darwin': system("say internet is up")
+            # if platform == 'darwin': system("say internet is up")
         else:
             print("down")
-            #if platform == 'darwin': system("say internet is down")
+            # if platform == 'darwin': system("say internet is down")
 
         sleep(int(argv[1]) if len(argv) > 1 else 27)
 
