@@ -5,7 +5,7 @@ from sys import argv, platform
 
 try:
     while True:
-        x = system('ping google.com -c 4 -t 3')
+        x = system('ping google.com -c 4 -t 3 1> /dev/null')
 
         if x == 0:
             print("up")
