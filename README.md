@@ -4,4 +4,4 @@
 usage: `istate.py number_of_waiting_sec` <br>
 example: `istate.py 15`
 
-This will make the script check every 15 seconds.
+This will make the script check every 5 seconds.
